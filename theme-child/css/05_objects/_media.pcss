@@ -1,0 +1,30 @@
+.o-media {
+    display: table;
+    width: 100%;
+    @util clearfix;
+}
+
+.o-media__img,
+.o-media__body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.o-media__img {
+    margin-right: var(--base-spacing-unit);
+    float: left;
+    img {
+        display: block;
+        max-width: none;
+    }
+}
+
+.o-media__body {
+    width: 100%;
+    overflow: hidden;
+    &, > :last-child { margin-bottom: 0; }
+}
+
+*{
+    border: 1px solid teal;
+}

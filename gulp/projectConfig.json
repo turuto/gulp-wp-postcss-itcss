@@ -1,0 +1,17 @@
+{
+	"config":{
+		"enableDebug"   : true,
+		"css" : {
+			"srcCSSFolder"  : "../path/to/cssFolder/",
+			"mainCSSFile"   : "../path/to/cssFolder/main.pcss",
+			"debugCSSFile"   : "../path/to/css/devTools.pcss",
+			"distCSSFolder" : "../themeFolder/whereStyleCSS/WillBeDeployed"
+		},
+		"nano" : {
+	        "discardComments": {
+	        	"removeAll": true
+	    	},
+	        "safe": true
+	    }
+	}
+}
